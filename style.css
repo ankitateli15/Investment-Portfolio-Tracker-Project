@@ -1,0 +1,90 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgb(130, 238, 184);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 2px solid red;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 153, 255));
+}
+
+h1 {
+    text-align: center;
+    border: 3px dotted #a328a7;
+    color: #2a0886;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+#total-portfolio-value {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    /* background-color: #28a79c; */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.investment-list-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.investment-list-section li {
+    background: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.investment-list-section button {
+    background-color: #dc3545;
+    padding: 5px 10px;
+}
+
+.investment-list-section button:hover {
+    background-color: #c82333;
+}
+
+.chart-section {
+    margin-top: 30px;
+    
+    
+}
